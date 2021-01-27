@@ -258,8 +258,8 @@ def user_stats(df):
     
     if "Gender" in df.columns: 
 
-        gender_male = len( df[df.Gender == "Male"])
-        gender_female = len( df[df.Gender == "Female"])
+        gender_male = len(df[df.Gender == "Male"])
+        gender_female = len(df[df.Gender == "Female"])
 
         print ("\nNumbers by Gender :")
         print ("Male : ", gender_male)
